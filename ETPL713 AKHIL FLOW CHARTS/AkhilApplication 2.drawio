@@ -1,0 +1,50 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Page-1" id="GxjvHEG9M2EOX8SPMS76">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#8a7575" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KzOiqM3CU-6QGfDGzfO0-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509.33331298828125" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-1" value="VechileSelection&lt;div&gt;Interface&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="586" y="278" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-2" value="PaymentInterface&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="107" y="313" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-3" value="&lt;b&gt;Implementation class&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="180" height="509" as="geometry" />
+        </mxCell>
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-4" value="Implementing Has class&lt;div&gt;via Has A relation&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;gradientColor=#ea6b66;" vertex="1" parent="KzOiqM3CU-6QGfDGzfO0-3">
+          <mxGeometry y="30" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-6" value="Implementing PaymentInterface&lt;div&gt;Implementing VechileSelection&lt;/div&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;gradientColor=#ffd966;" vertex="1" parent="KzOiqM3CU-6QGfDGzfO0-3">
+          <mxGeometry y="180" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-5" value="Implementing Abstact Class" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;" vertex="1" parent="KzOiqM3CU-6QGfDGzfO0-3">
+          <mxGeometry y="350" width="180" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KzOiqM3CU-6QGfDGzfO0-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504.66668701171875" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-7" value="Abstarct class&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="586" y="432" width="121" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-8" value="Has Class&lt;div&gt;(for Has A Relation)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="123" y="96" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.011;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KzOiqM3CU-6QGfDGzfO0-8" target="KzOiqM3CU-6QGfDGzfO0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzOiqM3CU-6QGfDGzfO0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.007;entryY=0.694;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KzOiqM3CU-6QGfDGzfO0-2" target="KzOiqM3CU-6QGfDGzfO0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

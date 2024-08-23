@@ -1,0 +1,14 @@
+package com.evergent.corejava.ObjectClassMethods;
+
+public class ImmutableString {
+	private String value;
+	public ImmutableString(String value) {
+		this.value=value;
+	}
+public String myValue() {
+	return value;
+}
+public String toString() {
+	return value;
+}
+}
